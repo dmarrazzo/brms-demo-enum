@@ -1,0 +1,3 @@
+'Address.zone' : ['A', 'B', 'C']
+'Address.country' : (new helper.EnumDataSource()).getListOfCountries()
+'Address.city[country]' : '(new helper.EnumDataSource()).getListOfCities("@{country}")'
